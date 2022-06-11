@@ -31,6 +31,24 @@ public class Form extends javax.swing.JFrame {
         getsSinhVien();
     }
 
+//     Ham connect neu can
+//         public Connection getCon(){
+//         Connection con=null;
+//         try {
+// //           Class.forName("com.mysql.cj.jdbc.Driver");
+//              con = DriverManager.getConnection("jdbc:mysql://localhost:3306/dlgv","root","");
+//                System.out.println("Connected.");
+// //            System.setOut(new PrintStream(System.out, true, "UTF8"));
+         
+// //            Statement stmt = con.createStatement(); // Command
+// //            ResultSet rs = stmt.executeQuery(query); // Excute
+           
+            
+//         } catch (Exception e) {
+//             System.out.println("Error." + e);
+//         }
+//         return con;
+//     }
     private void getsSinhVien() {
         DefaultTableModel model = (DefaultTableModel) jtable_show.getModel();
         model.setRowCount(0);
